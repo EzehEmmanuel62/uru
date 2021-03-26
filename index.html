@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../uru/img_slide.css">
+        <title>SUGTHERACER - Book store</title>
+    </head>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            /* height: 200vh; */
+        }
+        header{
+            position: relative;
+            width: 100%;
+            background: rgb(240, 233, 233);
+            display: flex;
+            color: chocolate;
+            font-family: sans-serif;
+            justify-content: space-around;
+            border-bottom: solid 2px rgb(39, 18, 18);
+            flex-wrap: wrap;
+        }
+        .ul{
+            display: flex;
+            flex-wrap: wrap;
+}
+.header{
+    background-image: url("../uru/2021-03-17.jpg");
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+header h3{
+    font-weight: 400;
+}
+header h3:hover{
+    color: rgb(117, 87, 69);
+    transform: scale(1.5);
+}
+nav div h4{
+    margin-left: 15px;
+}
+header a{
+    text-decoration: none;
+    color: chocolate;
+}
+header a:hover{
+    color: rgb(117, 87, 69);
+}
+.head{
+    color: chocolate;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: cursive;
+}
+.book{
+    margin: 3em;
+    font: 1em sans-serif;
+    font-size: large;
+}
+.wat{
+    color: white;
+    background-color: chocolate;
+    height: 40px;
+    width: 50vh;
+    padding: 20px 0 35px 0;
+}
+.wat:hover{
+    background-color: rgb(117, 87, 69);
+    transform: scale(1.2);
+}
+.wat a{
+    text-decoration: none;
+    color: white;
+}
+.update{
+    display: flex;
+    flex-direction: column;
+}
+#update{
+    text-align: center;
+    border-top: solid 1px black;    
+    margin: 5em;
+    padding: 45px 0;
+}
+.art{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.update article{
+    width: 320px;
+    font-size: 18px;
+    font-family: serif;
+}
+.update article a{
+    text-decoration: none;
+    color: chocolate;
+}
+.update article a:hover{
+    color: rgb(117, 87, 69);
+}
+.update article strong a{
+    text-decoration: underline;
+}
+.lastArt{
+    margin-left: 50px;
+}
+.about{
+    background-color: rgb(241, 238, 238);
+    padding: 7em;
+    margin: 5em;
+}
+#about, .galler{
+    text-align: center;
+    border-top: 1px solid #000;
+    padding: 30px;
+    
+}
+#contact{
+    border-top: 1px solid black;
+    margin: 5em;
+    padding-top: 15px;
+}
+.contact .div{
+    display: flex;
+    justify-content: space-around;
+
+}
+.call{
+    background-color: chocolate;
+    width: 12em;
+    height: 4.5em;
+    color: #fff;
+}
+.call:hover{
+    background-color: rgb(117, 87, 69);
+}
+.login{
+    background-image: url("../uru/2021-03-17.jpg");
+    border: 1px solid black;
+    width: 30vh;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.login:hover{
+   transform: scale(1.2);
+    
+}
+#login{
+    text-decoration: overline;
+    color: chocolate;
+
+}
+#login:hover{
+    text-decoration: underline;
+    color: rgb(201, 215, 241);
+
+}
+.email{
+    height: 2em;
+    background-color: rgb(201, 215, 241);
+}
+.text{
+    background-color: rgb(201, 215, 241);
+}
+.btn{
+    color: #fff;
+    background-color: chocolate;
+    height: 3em;
+    width: 10em;
+}
+.btn:hover{
+    background-color: rgb(117, 87, 69);
+}
+.sign a{
+    font-size: large;
+    color: rgb(25, 42, 201);
+}
+footer{
+    border-top: 1px solid chocolate;
+    text-align: center;
+}
+</style>
+<body>
+    <main>
+        <header>
+            <h3 class="logo"><a href='#'>SUGTHERACER</a></h3>
+            <nav>
+                <div class="ul">
+                    <h4><a href='#update'>Updates</a></h4>
+                    <h4><a href='#about'>About us</a></h4>
+                    <h4><a href='#galler'>Gallery</a></h4>
+                    <h4><a href='#contact'>Contact</a></h4>
+                </div>
+            </nav>
+                <h3><a href='#'>WhatsApp</a></h3>
+                <h3><a href='#'>Call Now</a></h3>
+        </header>
+        <div class="header">
+            <div class="head">READERS NETWORKS™️</div>
+            <p class="book">Book store <br>Open today until 6:00 PM</p>
+            <button class="wat">WHATSAPP 0903 717 3347</button>
+        </div>
+        <section class='update'>
+            <div id="update">UPDATES</div>
+            <section class='art'>
+                <article class="">
+                    <a href=""> <img width="320px" height="310px" src="../uru/2021-03-20.jpg" alt="">
+                    <p>
+                        Posted on Mar 20, 2021 </a> </br>
+                        Hurry and read for free! Sci-fi original book.
+                       <p><strong><a href="">LEARN MORE</a></strong> </p>
+                    </p>
+                </article>
+                <article class="">
+                    <a href=""> <img width="320px" height="310px" src="../uru/2021-03-19.png" alt="">
+                    <p>
+                        Posted on Mar 19, 2021</a> </br>
+                        The book is out now on Rakuten Kobo. You now go ahead to buy, it’s just 3.00$ </br>
+                        The book is based on relationship, you can even shop for your lover (lol)
+                    <p><strong><a href="">BUY</a></strong></p>
+                    </p>
+                </article>
+                <article class="">
+                    <p>
+                        <a href="">Posted on Mar 17, 2021</a> </br>
+                        Hope you are all safe out there.
+                        This is the best time to have fun with family and friends reading our best books and collections.
+                    </p>
+                </article>
+            </section>
+            <article class="lastArt">
+                <a href=""> <img width="320px" height="310px" src="../uru/2021-03-17.png" alt="">
+                <p>
+                    Posted on Mar 17, 2021</a>  </br>
+                    This book is paid. Coming soon on book stores as ebook and paperback edition across major book stores.
+                    The title makes it simple to know what the book entails! Till then, stay safe and sound.
+                </p>
+            </article>
+        </section>
+        <div class="about">
+            <p id='about'>GET THE BEST OF ALL ONLINE BOOKS ASAP</p>
+            <p>When we say in a light speed, we mean reading with READERS NETWORKS™️
+            </br>  Join us ASAP!</p>
+        </div>
+            <section id="galler">
+                <p class="galler">GALLERY</p>
+                <div class="image">
+                    <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio_btn" id="radio1">
+                        <input type="radio" name="radio_btn" id="radio2">
+                        <input type="radio" name="radio_btn" id="radio3">
+                        <input type="radio" name="radio_btn" id="radio4">
+                        <input type="radio" name="radio_btn" id="radio5">
+                        <div class="slide first">
+                        <img src="../uru/EC5A17E4-AF3D-455C-B567-88D0F45E484C.png" alt="slide image">
+                        </div> 
+                        <div class="slide ">
+                        <img src="../uru/11897BAC-A326-42AE-B95B-438C97DEADD4.png" alt="slide image">
+                        </div> 
+                        <div class="slide ">
+                        <img src="../uru/A9C42699-33AC-42A5-A201-EB1B66D02378.png" alt="slide image">
+                        </div> 
+                        <div class="slide ">
+                        <img src="../uru/6A958235-D0AA-4186-93C3-6CAA9F009158.png" alt="slide image">
+                        </div> 
+                        <div class="slide ">
+                        <img src="../uru/2021-03-17(1).jpg" alt="slide image">
+                        </div> 
+                        <div class="navigation_auto">
+                        <div class="auto_btn1"></div>
+                        <div class="auto_btn2"></div>
+                        <div class="auto_btn3"></div>
+                        <div class="auto_btn4"></div>
+                        <div class="auto_btn5"></div>
+                        </div>
+                        <div class="navigation_manual">
+                        <label for="radio1" class="manual_btn"></label>
+                        <label for="radio2" class="manual_btn"></label>
+                        <label for="radio3" class="manual_btn"></label>
+                        <label for="radio4" class="manual_btn"></label>
+                        <label for="radio5" class="manual_btn"></label>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            
+
+
+        <section class='contact'>
+            <p id="contact" style="text-align: center;">CONTACT US</p>
+        <div class='div'>
+            <article>
+                <h3 class="con">Contact</h3> </br>
+               <button class="call">CALL NOW</button> 
+                <p>0903 717 3347</p>
+            </article>
+            <article>
+                <h3>Business Hours</h3>
+                <p>Mon:	7:30 AM – 6:00 PM</p>
+                <p>Tue:	7:00 AM – 6:00 PM</p>
+                <p>Wed:	7:30 AM – 6:00 PM</p>
+                <p>Thu:	7:00 AM – 6:00 PM</p>
+                <p>Fri:	8:30 AM – 4:30 PM</p>
+                <p>Sat:	Closed</p>
+                <p>Sun:	Closed</p>
+            </article>
+            <article>
+                <div class="login">
+                    <div><h2 id="login">Email Us</h2></div>
+                    <div><input type="email" class="email" placeholder="Email" id="email"></div>
+                    <div><textarea id="text" class="text" name="w3review" rows="4" cols="24">
+Massage Us here!
+                        </textarea>
+                    <div class="sign"> <a href="#">Sign up</a></div>
+                    <div><input type="button" class="btn" value="Send"></div>
+                </div>
+            </article>
+        </div>
+        </section>
+        <footer>
+            <p>SUGTHERACER © 2021-3-25 Copyright on reserve </p>
+            <p>Written by Ezeh Emmanuel to Uru Ruchi 😜😜😜</p>
+        </footer>
+    </main>
+</body>
+</html>
